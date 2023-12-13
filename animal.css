@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+    background-color: antiquewhite;
+}
+
+h1 {
+    text-align: center;
+}
+
+#container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#animals, #names {
+    width: 50%;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+div {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.correct {
+    background-color: darkblue;
+    color: white;
+}
+
+.incorrect {
+    background-color: darkred;
+    color: white;
+}
